@@ -55,6 +55,7 @@ def main():
 	client.will_set('Delay', b'{"status": "Off"}')
 	client.connect("rata-mqtt.digitraffic.fi", 1883, 60)
 	client.loop_forever()
+    print("hello world")
         
 if __name__ == "__main__":
     main()
